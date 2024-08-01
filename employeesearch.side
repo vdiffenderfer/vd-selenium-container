@@ -1,0 +1,286 @@
+{
+  "id": "d5ec0997-2778-4147-ac8a-d62cc8bb441a",
+  "version": "2.0",
+  "name": "employeesearch",
+  "url": "https://employeesearch.dasapp.oregon.gov/",
+  "tests": [{
+    "id": "ef620a6d-ce2d-4ba3-a480-c95d261675c4",
+    "name": "form fill",
+    "commands": [{
+      "id": "e4ddb568-1ac4-4224-9234-839cc7b8b03c",
+      "comment": "",
+      "command": "open",
+      "target": "https://employeesearch.dasapp.oregon.gov/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "90fd670e-0480-4fdd-b8e2-351c3edd77ae",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1020",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4e3bc43f-d794-4ee0-ba5e-307bc2504180",
+      "comment": "",
+      "command": "click",
+      "target": "css=.combobox:nth-child(1)",
+      "targets": [
+        ["css=.combobox:nth-child(1)", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//form[@id='form']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c4f5ecc-7d83-46dc-b7a0-e535e83d20e9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-group-text",
+      "targets": [
+        ["css=.input-group-text", "css:finder"],
+        ["xpath=//form[@id='form']/div/div/div/span/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa2fc2da-1eda-4be4-afb3-bf729fe221b2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=DAS - Department of Administrative Services",
+      "targets": [
+        ["linkText=DAS - Department of Administrative Services", "linkText"],
+        ["css=.active > .dropdown-item", "css:finder"],
+        ["xpath=//form[@id='form']/div/div/div/ul/li[17]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[17]", "xpath:href"],
+        ["xpath=//li[17]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'DAS - Department of Administrative Services')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0cde675e-d67f-4a56-bc74-09fa1270cf0c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-group:nth-child(2)",
+      "targets": [
+        ["css=.form-group:nth-child(2)", "css:finder"],
+        ["xpath=//form[@id='form']/div[2]", "xpath:idRelative"],
+        ["xpath=//form/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "afa65e64-60c3-4a8c-9ea0-c8738bf7d8f4",
+      "comment": "",
+      "command": "click",
+      "target": "name=SearchStringFirst",
+      "targets": [
+        ["name=SearchStringFirst", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='SearchStringFirst']", "xpath:attributes"],
+        ["xpath=//form[@id='form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e316a42-3a8a-42b9-b631-088117e2fd46",
+      "comment": "",
+      "command": "type",
+      "target": "name=SearchStringFirst",
+      "targets": [
+        ["name=SearchStringFirst", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='SearchStringFirst']", "xpath:attributes"],
+        ["xpath=//form[@id='form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Vi"
+    }, {
+      "id": "0acbb0b8-8438-431b-aacb-68866ba1fa91",
+      "comment": "",
+      "command": "click",
+      "target": "name=SearchStringLast",
+      "targets": [
+        ["name=SearchStringLast", "name"],
+        ["css=.form-group:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//input[@name='SearchStringLast']", "xpath:attributes"],
+        ["xpath=//form[@id='form']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "885b11e2-0eb2-4dec-880b-429a5e119237",
+      "comment": "",
+      "command": "type",
+      "target": "name=SearchStringLast",
+      "targets": [
+        ["name=SearchStringLast", "name"],
+        ["css=.form-group:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//input[@name='SearchStringLast']", "xpath:attributes"],
+        ["xpath=//form[@id='form']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Diffenderfer"
+    }, {
+      "id": "82e089e1-3221-4eb2-8353-daf8562562ab",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='form']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "565a0c26-bd37-4756-8375-32790d5b20bd",
+      "comment": "",
+      "command": "click",
+      "target": "id=clearButton",
+      "targets": [
+        ["id=clearButton", "id"],
+        ["linkText=Start Over", "linkText"],
+        ["css=#clearButton", "css:finder"],
+        ["xpath=//a[contains(text(),'Start Over')]", "xpath:link"],
+        ["xpath=//a[@id='clearButton']", "xpath:attributes"],
+        ["xpath=//form[@id='form']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[2]", "xpath:href"],
+        ["xpath=//form/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Start Over')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "57bfc28a-fd27-4ec0-82d1-340c7a4aed2b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-group-text",
+      "targets": [
+        ["css=.input-group-text", "css:finder"],
+        ["xpath=//form[@id='form']/div/div/div/span/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d375269-12b7-4d8c-85cf-432ea2d26360",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=DAS - Department of Administrative Services",
+      "targets": [
+        ["linkText=DAS - Department of Administrative Services", "linkText"],
+        ["css=.active > .dropdown-item", "css:finder"],
+        ["xpath=//form[@id='form']/div/div/div/ul/li[17]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[17]", "xpath:href"],
+        ["xpath=//li[17]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'DAS - Department of Administrative Services')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f56be0e-4b2a-488a-864d-69f1d56d8376",
+      "comment": "",
+      "command": "click",
+      "target": "name=SearchStringFirst",
+      "targets": [
+        ["name=SearchStringFirst", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='SearchStringFirst']", "xpath:attributes"],
+        ["xpath=//form[@id='form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0bcefb57-c74b-4966-9849-8dfd33e8c232",
+      "comment": "",
+      "command": "type",
+      "target": "name=SearchStringFirst",
+      "targets": [
+        ["name=SearchStringFirst", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='SearchStringFirst']", "xpath:attributes"],
+        ["xpath=//form[@id='form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Anthony"
+    }, {
+      "id": "62417339-72aa-4346-9148-3d5af0d5cf89",
+      "comment": "",
+      "command": "type",
+      "target": "name=SearchStringLast",
+      "targets": [
+        ["name=SearchStringLast", "name"],
+        ["css=.form-group:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//input[@name='SearchStringLast']", "xpath:attributes"],
+        ["xpath=//form[@id='form']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Talbert"
+    }, {
+      "id": "94f78ab8-14e8-49cf-b0d4-5278b488d6b5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='form']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "64a7fa52-f4b5-4d68-8a8b-ea68b10e3347",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sorting_1",
+      "targets": [
+        ["css=.sorting_1", "css:finder"],
+        ["xpath=//table[@id='DataTables_Table_0']/tbody/tr/td", "xpath:idRelative"],
+        ["xpath=//td", "xpath:position"],
+        ["xpath=//td[contains(.,'Talbert')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "733cbbee-7ae4-4407-b710-bf262604b3e5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=1",
+      "targets": [
+        ["linkText=1", "linkText"],
+        ["css=.active > .page-link", "css:finder"],
+        ["xpath=//a[contains(text(),'1')]", "xpath:link"],
+        ["xpath=//div[@id='DataTables_Table_0_paginate']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e75d85d5-e2fb-478a-9bdb-72da82e9aca8",
+      "comment": "",
+      "command": "click",
+      "target": "id=clearButton",
+      "targets": [
+        ["id=clearButton", "id"],
+        ["linkText=Start Over", "linkText"],
+        ["css=#clearButton", "css:finder"],
+        ["xpath=//a[contains(text(),'Start Over')]", "xpath:link"],
+        ["xpath=//a[@id='clearButton']", "xpath:attributes"],
+        ["xpath=//form[@id='form']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[2]", "xpath:href"],
+        ["xpath=//form/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Start Over')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "809752c6-6ef7-4d26-9e80-1869cce4a975",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ef620a6d-ce2d-4ba3-a480-c95d261675c4"]
+  }],
+  "urls": ["https://employeesearch.dasapp.oregon.gov/"],
+  "plugins": []
+}
